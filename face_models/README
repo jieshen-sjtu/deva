@@ -1,0 +1,11 @@
+ 1) Detection thresholds can be changed in the xml file between the <thresh>
+ tags
+
+ 2) The models can be found at
+ https://github.com/hbristow/PartsBasedDetectorModels (which is a submodule of
+ PartsBasedDetector if you git clone recursively)
+
+ 3) The conversion code for transferring between a Face -> Pose model is in the
+ matlab subdirectory of PartsBasedDetector, and if you build with cvmatio
+ support, it'll also build a utility called ModelTransfer which will convert
+ .mat -> .xml
